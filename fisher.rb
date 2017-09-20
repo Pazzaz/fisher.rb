@@ -286,7 +286,7 @@ class FishEvaluator
 	end
 end
 
-def testing
+def main
 	arguments = {}
 	if ARGV.include?('-c')
 		arguments[:code] = ARGV[ARGV.index('-c') + 1]
@@ -310,4 +310,4 @@ def testing
 	fisher.start_loop
 end
 
-testing
+main
